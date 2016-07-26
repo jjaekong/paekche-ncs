@@ -1,0 +1,60 @@
+.ncs-info .section-header > p {
+    padding-bottom: 45px;
+    border-bottom: 1px solid #dadada;
+}
+/* ncs-info */
+.introduce.ncs-info .ncs-info > .section-content > h2 {
+    font-size: 30px;
+    color: #6b5d57;
+    margin: 60px 0 52px;
+}
+.introduce.ncs-info .ncs-info > .section-content > p {
+    font-size: 14px;
+    color: #666;
+    line-height: 24px;
+    margin-left: 15px;
+}
+.introduce.ncs-info .ncs-info > .section-content > .subject {
+    margin: 50px 0 20px;
+}
+.introduce.ncs-info .ncs-info > .section-content > .subject:nth-of-type(1) {
+    margin-top: 0;
+}
+.introduce.ncs-info .ncs-info > .section-content > .subject:nth-of-type(3) {
+    margin-top: 0;
+}
+.introduce.ncs-info .ncs-info > .section-content > .content-list > li {
+    position: relative;
+    font-size: 14px;
+    color: #666;
+    line-height: 24px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding-left: 10px;
+}
+.introduce.ncs-info .ncs-info > .section-content > .content-list > li:last-child {
+    margin-bottom: 0;
+}
+.introduce.ncs-info .ncs-info > .section-content > .content-list > li > .basic-list {
+    padding-left: 10px;
+}
+.introduce.ncs-info .ncs-info > .section-content > .content-list > li > .basic-list > li:before {
+    position: absolute;
+    top; 0;
+    left: 10px;
+    content: "•";
+    list-style-position: inside;
+}
+.introduce.ncs-info .ncs-info > .section-content > .content-list > li > .basic-list > li > .inline-dl {
+
+}
+.introduce.ncs-info .ncs-info > .section-content > .content-list > li > .basic-list > li > .inline-dl > dt {
+    color: #555;
+    font-size: 14px;
+    line-height: 24px;
+}
+.introduce.ncs-info .ncs-info > .section-content > .content-list > li > .basic-list > li > .inline-dl > dd {
+    color: #555;
+    font-size: 14px;
+    line-height: 24px;
+}
