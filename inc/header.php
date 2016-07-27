@@ -11,45 +11,35 @@
                 <li class="has-child">
                     <a href="#">센터소개</a>
                     <ul>
-                        <li><a href="#">menu</a></li>
-                        <li><a href="#">menu</a></li>
-                        <li><a href="#">menu</a></li>
-                    </ul>
-                </li>
-                <li class="has-child">
-                    <a href="#">모집요강</a>
-                    <ul>
-                        <li><a href="#">menu</a></li>
-                        <li><a href="#">menu</a></li>
-                        <li><a href="#">menu</a></li>
+                        <li><a href="/center/target.php">운영목표</a></li>
+                        <li><a href="/center/group.php">조직구성</a></li>
+                        <li><a href="/center/business.php">주요업무</a></li>
+                        <li><a href="/center/location.php">찾아오시는길</a></li>
                     </ul>
                 </li>
                 <li class="has-child">
                     <a href="#">NCS소개</a>
                     <ul>
-                        <li><a href="#">menu</a></li>
-                        <li><a href="#">menu</a></li>
-                        <li><a href="#">menu</a></li>
+                        <li><a href="/introduce/ncs_info.php">NCS란</a></li>
+                        <li><a href="/introduce/term.php">용어설명</a></li>
+                        <li><a href="/introduce/system.php">NCS분류체계</a></li>
+                        <li><a href="/introduce/module.php">NCS학습모듈</a></li>
+                        <li><a href="/introduce/ability.php">직업기초능력</a></li>
                     </ul>
                 </li>
                 <li class="has-child">
                     <a href="#">NCS자료실</a>
                     <ul>
-                        <li><a href="#">menu</a></li>
-                        <li><a href="#">menu</a></li>
-                        <li><a href="#">menu</a></li>
+                        <li><a href="/reference/">menu</a></li>
+                        <li><a href="/reference/">menu</a></li>
+                        <li><a href="/reference/">menu</a></li>
                     </ul>
                 </li>
                 <li class="has-child">
                     <a href="#">커뮤니티</a>
                     <ul>
-                        <li><a href="/information/notice.php">공지사항</a></li>
-                        <li><a href="/information/faq_all.php">FAQ</a></li>
-                        <li><a href="/information/competition.php">경쟁률</a></li>
-                        <li><a href="/information/data.php">자료실</a></li>
-                        <li><a href="/information/star_list.php">백제스타</a></li>
-                        <li><a href="/information/grade.php">내신성적산출</a></li>
-                        <li><a href="/information/ipsidata.php">입시자료신청</a></li>
+                        <li><a href="/community/">공지사항</a></li>
+                        <li><a href="/community/">FAQ</a></li>
                     </ul>
                 </li>
             </ul>

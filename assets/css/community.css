@@ -1,0 +1,325 @@
+.community .section-header > p {
+    padding-bottom: 45px;
+    border-bottom: 1px solid #dadada;
+}
+.community input:focus {
+    outline: 0;
+    border-color: #aaa;
+}
+.community select:focus {
+    outline: 0;
+    border-color: #aaa;
+}
+
+
+/* news */
+.community.news .news {
+    overflow: hidden;
+}
+.community.news .news > .news-list {
+    padding-top: 20px;
+    clear: both;
+}
+.community.news .news > .news-list > li:first-child {
+    border-top: 2px solid #555;
+}
+.community.news .news > .news-list > li {
+    overflow: hidden;
+    padding: 12px 0;
+    border-bottom: 1px solid #dadada;
+}
+.community.news .news > .news-list > li > a > p {
+    float: left;
+}
+.community.news .news > .news-list > li > a > p > img {
+    width: 210px;
+    height: 135px;
+}
+.community.news .news > .news-list > li > a  > .news-content {
+    position: relative;
+    float: left;
+    width: 940px;
+    height: 135px;
+    margin-left: 17px;
+    padding: 9px 0 5px 0;
+}
+.community.news .news > .news-list > li > a  > .news-content > h4 {
+    font-size: 16px;
+    font-weight: 400;
+    width: 920px;
+    color: #333;
+    margin: 0 0 12px 0;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.community.news .news > .news-list > li > a  > .news-content > .content {
+    width: 920px;
+    font-size: 13px;
+    color: #666;
+    line-height: 23px;
+}
+.community.news .news > .news-list > li > a  > .news-content > .date {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 13px;
+    color: #9f9f9f;
+}
+.community.news .news > .paging {
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+.community.news .news > .paging > .pagination {
+    margin: 0;
+}
+
+/* notice */
+.community.notice .notice > .search-form {
+    margin-bottom: 19px;
+}
+.community.notice .notice > .table-wrap > .table > thead > tr > th {
+    font-size: 14px !important;
+    padding: 17px 0 !important;
+}
+.community.notice .notice > .table-wrap > .table > tbody > tr > td {
+    border-right: 0;
+    font-size: 13px !important;
+    padding: 17px 0 !important;
+}
+.community.notice .notice > .table-wrap > .table > tbody > tr > td > a {
+    color: #666;
+}
+.community.notice .notice > .table-wrap > .table > tbody > tr > td:nth-of-type(2) {
+    text-align: left !important;
+}
+.community.notice .notice > .table-wrap > .table > tbody > tr > td:last-child {
+    text-align: center !important;
+}
+.community.notice .notice > .paging {
+    margin-top: 17px;
+}
+.community.notice .notice > .btn-area {
+    margin: 18px 0 0 0;
+    overflow: hidden;
+}
+.community.notice .notice > .btn-area > p > .btn-red {
+    float: right;
+    width: 130px !important;
+    height: 45px !important;
+    color: #fff;
+    background-color: #d22d36 !important;
+}
+
+
+/* notice-view */
+.community.notice-view .notice-view > .view-comment {
+    margin-top: 59px;
+}
+.community.notice-view .notice-view > .view-comment > header > h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    background-color: #f9f9f9;
+    border-top: 2px solid #555;
+    border-bottom: 1px solid #dadada;
+    padding: 21px 30px;
+    margin: 0;
+}
+.community.notice-view .notice-view > .view-comment > header > ul > li {
+    padding: 18px 28px 18px 40px;
+    border-bottom: 1px solid #dadada;
+}
+.community.notice-view .notice-view > .view-comment > header > ul > li > .inline-dl > dt {
+    font-weight: 400;
+    font-size: 13px;
+    color: #666;
+}
+.community.notice-view .notice-view > .view-comment > header > ul > li > .inline-dl > dd {
+    font-size: 13px;
+    color: #666;
+}
+.community.notice-view .notice-view > .view-comment > header > ul > li > .inline-dl > dt:after {
+    content: "|";
+    padding: 0 18px;
+}
+.community.notice-view .notice-view > .view-comment > header > ul > li > ul > li {
+    display: inline-block;
+}
+.community.notice-view .notice-view > .view-comment > header > ul > li > ul > li:nth-of-type(1) {
+    margin-right: 620px;
+}
+.community.notice-view .notice-view > .view-comment > header > ul > li > ul > li:nth-of-type(2) {
+    margin-right: 100px;
+}
+.community.notice-view .notice-view > .view-comment > header > ul > li > ul > li > .inline-dl > dt {
+    font-weight: 400;
+    font-size: 13px;
+    color: #666;
+}
+.community.notice-view .notice-view > .view-comment > header > ul > li > ul > li > .inline-dl > dd {
+    font-size: 13px;
+    color: #666;
+}
+.community.notice-view .notice-view > .view-comment > header > ul > li > ul > li > .inline-dl > dt:after {
+    content: "|";
+    padding: 0 18px;
+}
+.community.notice-view .notice-view > .view-comment > .article-content {
+    font-size: 14px;
+    color: #666;
+    line-height: 24px;
+    padding: 32px 29px;
+    min-height: 460px;
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 20px;
+}
+.community.notice-view .notice-view > .view-comment > .btn-area {
+    margin: 0;
+    overflow: hidden;
+}
+.community.notice-view .notice-view > .view-comment > .btn-area > p > .btn-red {
+    float: right;
+    width: 130px !important;
+    height: 50px !important;
+    color: #fff;
+    background-color: #d22d36 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.community.notice-view .notice-view > .view-comment > .comment {
+    margin: 50px 0 18px 0;
+    padding: 30px 30px 17px;
+    background-color: #f3f3f3;
+}
+.community.notice-view .notice-view > .view-comment > .comment > h3 {
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+    margin: 0 0 18px 0;
+}
+.community.notice-view .notice-view > .view-comment > .comment > .comment-write {
+    overflow: hidden;
+}
+.community.notice-view .notice-view > .view-comment > .comment > .comment-write > label {
+    margin-right: 10px;
+    font-size: 13px;
+    color: #222;
+    font-weight: 400;
+}
+.community.notice-view .notice-view > .view-comment > .comment > .comment-write > input {
+    width: 140px;
+    height: 28px;
+    margin-right: 25px;
+    padding-left: 5px;
+    border: 1px solid #dadada;
+}
+.community.notice-view .notice-view > .view-comment > .comment > .comment-write > textarea {
+    float: left;
+    width: 960px;
+    height: 80px;
+    border: 1px solid #dadada;
+    margin-top: 10px;
+    padding: 5px;
+}
+.community.notice-view .notice-view > .view-comment > .comment > .comment-write > .btn-area {
+    float: left;
+    margin: 10px 0 0 10px;
+}
+.community.notice-view .notice-view > .view-comment > .comment > .comment-write > .btn-area > p {
+    margin: 0;
+}
+.community.notice-view .notice-view > .view-comment > .comment > .comment-write > .btn-area > p > .btn {
+    font-size: 15px !important;
+    width: 140px !important;
+    height: 80px !important;
+    padding: 20px 0 !important;
+    margin: 0 !important;
+    display: inline-block !important;
+    background-color: #555 !important;
+}
+.community.notice-view .notice-view > .view-comment > .comment-view > li {
+    position: relative;
+    padding: 20px 0;
+    border-bottom: 1px solid #dadada;
+}
+.community.notice-view .notice-view > .view-comment > .comment-view > li > p {
+    font-size: 12px;
+    color: #9b9b9b;
+    padding-left: 10px;
+}
+.community.notice-view .notice-view > .view-comment > .comment-view > li > p:before {
+    content: "ㄴ";
+}
+.community.notice-view .notice-view > .view-comment > .comment-view > li:first-child {
+    border-top: 0;
+}
+.community.notice-view .notice-view > .view-comment > .comment-view > li > h4 {
+    font-size: 13px;
+    color: #444;
+    font-weight: 400;
+    margin: 0;
+    padding-bottom: 10px;
+}
+.community.notice-view .notice-view > .view-comment > .comment-view > li > h4 > .date {
+    color: #9b9b9b;
+    font-weight: 300;
+}
+.community.notice-view .notice-view > .view-comment > .comment-view > li > h4 > .date:before {
+    content: "(";
+}
+.community.notice-view .notice-view > .view-comment > .comment-view > li > h4 > .date:after {
+    content: ")";
+}
+
+.community.notice-view .notice-view > .view-comment > .comment-view > li > .btn-area {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    margin: 0;
+}
+.community.notice-view .notice-view > .view-comment > .comment-view > li > .btn-area > p > .btn {
+    margin-left: 2px !important;
+    width: 18px !important;
+    height: 18px !important;
+    padding: 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 body {
+    min-width: 1200px;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 300;
     color: #666;
@@ -212,14 +213,17 @@ ol {
 }
 .main-visual > .index-notice {
     background-color: #f0c413;
-    height: 260px;
     padding: 25px 0;
 }
 .main-visual > .index-notice > .container {
     padding: 0 15px !important;
 }
+.main-visual > .index-notice > .container > ul {
+    overflow: hidden;
+}
 .main-visual > .index-notice > .container > ul > li {
     display: inline-block;
+    float: left;
     border-right: 1px solid #d1ab11;
     width: 387px;
     color: #333;
@@ -231,7 +235,7 @@ ol {
 .main-visual > .index-notice > .container > ul > li > h3 {
     font-size: 20px;
     color: #333;
-    margin: 0 0 29px 0;
+    margin: 0 0 20px 0;
     padding: 0;
     background-image: url(/assets/images/plus_bg.png);
     background-repeat: no-repeat;
@@ -243,50 +247,63 @@ ol {
     display: inline-block;
     text-decoration: none;
 }
-.main-visual > .index-notice > .container > ul > li:nth-of-type(2) h3 {
-    background: none;
+.main-visual > .index-notice > .container > ul > li:nth-of-type(2) {
+    background-image: url(/assets/images/coll_bg.png);
+    background-repeat: no-repeat;
+    background-position: 272px 120px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.main-visual > .index-notice > .container > ul > li:nth-of-type(2) > h3 {
+    background: none;
+    margin-bottom: 10px;
+}
+.main-visual > .index-notice > .container > ul > li:nth-of-type(2) > p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 60px;
+}
+.main-visual > .index-notice > .container > ul > li:nth-of-type(2) > .inline-dl {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.main-visual > .index-notice > .container > ul > li:nth-of-type(2) > .inline-dl > dt {
+    float: left;
+    clear: both;
+    font-size: 22px;
+    color: #333;
+    font-weight: 400;
+}
+.main-visual > .index-notice > .container > ul > li:nth-of-type(2) > .inline-dl > dt:after {
+    content: ".";
+    padding: 0 5px 0 0;
+}
+.main-visual > .index-notice > .container > ul > li:nth-of-type(2) > .inline-dl > dd {
+    float: left;
+    font-size: 22px;
+    color: #333;
+    font-weight: 400;
+}
+.main-visual > .index-notice > .container > ul > li > ul {
+    vertical-align: top;
+}
+.main-visual > .index-notice > .container > ul > li > ul > li {
+    position: relative;
+    padding-left: 10px;
+    line-height: 28px;
+    width: 295px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.main-visual > .index-notice > .container > ul > li > ul > li > a {
+    font-size: 14px;
+    color: #444;
+}
+.main-visual > .index-notice > .container > ul > li > ul > li:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "•";
+}
 .jumbo-wall {
     height: 205px;
     background-color: #fff;
@@ -482,14 +499,14 @@ ol {
 #footer .container .department-sites {
     position: absolute;
     top: 55px;
-    width: 150px;
+    width: 170px;
 }
 
 #footer .container .campus-sites .btn,
 #footer .container .department-sites .btn {
     padding-left: 20px;
     padding-right: 20px;
-    width: 150px;
+    width: 170px;
     height: 45px;
     border-radius: 0;
     border: 0;
@@ -525,6 +542,11 @@ ol {
     background-color: #a8a8a8;
 }
 
+#footer .container .campus-sites .dropdown-menu,
+#footer .container .department-sites .dropdown-menu:nth-of-type(1) {
+    margin-right
+}
+
 #footer .container .campus-sites .dropdown-menu li,
 #footer .container .department-sites .dropdown-menu li {
     margin-right: 0;
@@ -544,7 +566,7 @@ ol {
 }
 
 #footer .container .campus-sites {
-    right: 175px;
+    right: 195px;
 }
 
 #footer .container .department-sites {
