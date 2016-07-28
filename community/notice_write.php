@@ -19,7 +19,7 @@
 				<li><a href="#">커뮤니티</a></li>
 				<!-- li class="active">수업자료실</li -->
 				<li class="active module">
-					<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">공지사항</a>
+					<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">묻고답하기</a>
 				</li>
 			</ol>
 		</div>
@@ -29,7 +29,7 @@
 			<section class="notice-write">
 				<div class="section-header">
                     <hr>
-				    <h3>공지사항</h3>
+				    <h3>묻고답하기</h3>
 				    <p>
                         <i>백제예술대학교 NCS지원센터</i>는 <br>
                         문화·예술 분야 교육을 통해 대학의 특성화 및 교육의 질 향상을 지원합니다.

@@ -19,7 +19,7 @@
 				<li><a href="#">NCS소개</a></li>
 				<!-- li class="active">수업자료실</li -->
 				<li class="active dropdown">
-					<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">NCS분류체계</a>
+					<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">직업기초능력</a>
 				</li>
 			</ol>
 		</div>
@@ -29,7 +29,7 @@
 			<section class="ability">
 				<div class="section-header">
                     <hr>
-				    <h3>NCS분류체계</h3>
+				    <h3>직업기초능력</h3>
 				    <p>
                         <i>백제예술대학교 NCS지원센터</i>는 <br>
                         문화·예술 분야 교육을 통해 대학의 특성화 및 교육의 질 향상을 지원합니다.

@@ -362,11 +362,6 @@ ol {
     content: none;
 }
 
-.page-nav .breadcrumb > li.active {
-    padding-left: 80px;
-    padding-right: 80px;
-}
-
 .page-nav .breadcrumb > li.active.dropdown {
     padding-left: 0;
     padding-right: 0;
