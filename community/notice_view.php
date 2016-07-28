@@ -64,7 +64,9 @@
 				            <li>
 				                <dl class="inline-dl">
 				                    <dt>첨부파일</dt>
-				                    <dd>abc.hwp</dd>
+				                    <dd><a href="#">abc.hwp</a></dd>
+				                    <dd><a href="#">abc.hwp</a></dd>
+				                    <dd><a href="#">abc.hwp</a></dd>
 				                </dl>
 				            </li>
 				        </ul>
@@ -80,17 +82,19 @@
 				    <div class="comment">
                         <h3>COMMENT</h3>
                         <div class="comment-write">
-                            <label for="user-name">이름</label>
-                            <input type="text" id="user-name">
-                            <label for="user-pw">패스워드</label>
-                            <input type="password" id="user-pw">
-                            <label for="comment-content" class="sr-only"></label>
-                            <textarea id="comment-content"></textarea>
-                            <div class="btn-area">
-                                <p>
-                                    <a href="#" class="btn btn-green" role="button">글쓰기</a>
-                                </p>
-                            </div>
+                            <form>
+                                <label for="user-name">이름</label>
+                                <input type="text" id="user-name">
+                                <label for="user-pw">패스워드</label>
+                                <input type="password" id="user-pw">
+                                <label for="comment-content" class="sr-only"></label>
+                                <textarea id="comment-content"></textarea>
+                                <div class="btn-area">
+                                    <p>
+                                        <a href="#" class="btn btn-green" role="button">글쓰기</a>
+                                    </p>
+                                </div>
+                            </form>
                         </div>
                     </div>
                     <ul class="comment-view">

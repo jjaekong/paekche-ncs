@@ -30,16 +30,17 @@
                 <li class="has-child">
                     <a href="#">NCS자료실</a>
                     <ul>
-                        <li><a href="/reference/">menu</a></li>
-                        <li><a href="/reference/">menu</a></li>
-                        <li><a href="/reference/">menu</a></li>
+                        <li><a href="#">NCS기반교육과정개발</a></li>
+                        <li><a href="#">NCS교과목 운영</a></li>
+                        <li><a href="#">NCS교과목 평가</a></li>
+                        <li><a href="#">서식류</a></li>
                     </ul>
                 </li>
                 <li class="has-child">
                     <a href="#">커뮤니티</a>
                     <ul>
-                        <li><a href="/community/">공지사항</a></li>
-                        <li><a href="/community/">FAQ</a></li>
+                        <li><a href="/community/news.php">뉴스/보도</a></li>
+                        <li><a href="/community/notice.php">묻고답하기</a></li>
                     </ul>
                 </li>
             </ul>

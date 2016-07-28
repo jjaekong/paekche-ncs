@@ -139,9 +139,20 @@
     font-size: 13px;
     color: #666;
 }
+.community.notice-view .notice-view > .view-comment > header > ul > li > .inline-dl > dd > a {
+    color: #666;
+}
 .community.notice-view .notice-view > .view-comment > header > ul > li > .inline-dl > dt:after {
     content: "|";
     padding: 0 18px;
+}
+.community.notice-view .notice-view > .view-comment > header > ul > li > .inline-dl > dd:after {
+    content: ",";
+    padding-right: 3px;
+}
+.community.notice-view .notice-view > .view-comment > header > ul > li > .inline-dl > dd:last-child:after {
+    content: "";
+    padding-right: 0;
 }
 .community.notice-view .notice-view > .view-comment > header > ul > li > ul > li {
     display: inline-block;
@@ -183,28 +194,9 @@
     width: 130px !important;
     height: 50px !important;
     color: #fff;
+    padding: 5px 0;
     background-color: #d22d36 !important;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .community.notice-view .notice-view > .view-comment > .comment {
     margin: 50px 0 18px 0;
     padding: 30px 30px 17px;
@@ -216,23 +208,23 @@
     font-weight: bold;
     margin: 0 0 18px 0;
 }
-.community.notice-view .notice-view > .view-comment > .comment > .comment-write {
+.community.notice-view .notice-view > .view-comment > .comment > .comment-write > form {
     overflow: hidden;
 }
-.community.notice-view .notice-view > .view-comment > .comment > .comment-write > label {
+.community.notice-view .notice-view > .view-comment > .comment > .comment-write > form > label {
     margin-right: 10px;
     font-size: 13px;
     color: #222;
     font-weight: 400;
 }
-.community.notice-view .notice-view > .view-comment > .comment > .comment-write > input {
+.community.notice-view .notice-view > .view-comment > .comment > .comment-write > form > input {
     width: 140px;
     height: 28px;
     margin-right: 25px;
     padding-left: 5px;
     border: 1px solid #dadada;
 }
-.community.notice-view .notice-view > .view-comment > .comment > .comment-write > textarea {
+.community.notice-view .notice-view > .view-comment > .comment > .comment-write > form > textarea {
     float: left;
     width: 960px;
     height: 80px;
@@ -240,14 +232,14 @@
     margin-top: 10px;
     padding: 5px;
 }
-.community.notice-view .notice-view > .view-comment > .comment > .comment-write > .btn-area {
+.community.notice-view .notice-view > .view-comment > .comment > .comment-write > form > .btn-area {
     float: left;
     margin: 10px 0 0 10px;
 }
-.community.notice-view .notice-view > .view-comment > .comment > .comment-write > .btn-area > p {
+.community.notice-view .notice-view > .view-comment > .comment > .comment-write > form > .btn-area > p {
     margin: 0;
 }
-.community.notice-view .notice-view > .view-comment > .comment > .comment-write > .btn-area > p > .btn {
+.community.notice-view .notice-view > .view-comment > .comment > .comment-write > form > .btn-area > p > .btn {
     font-size: 15px !important;
     width: 140px !important;
     height: 80px !important;
@@ -289,7 +281,6 @@
 .community.notice-view .notice-view > .view-comment > .comment-view > li > h4 > .date:after {
     content: ")";
 }
-
 .community.notice-view .notice-view > .view-comment > .comment-view > li > .btn-area {
     position: absolute;
     top: 20px;
@@ -302,6 +293,157 @@
     height: 18px !important;
     padding: 0 !important;
 }
+
+/* notice-write */
+.community.notice-write .notice-write > .section-header {
+    margin-bottom: 59px;
+}
+.community.notice-write .notice-write > .table-wrap > .write-form > .table label {
+    margin: 0;
+    font-weight: 400;
+    color: #333;
+}
+.community.notice-write .notice-write > .table-wrap > .write-form > .table > tbody > tr > th {
+    font-size: 14px !important;
+    padding: 14px 25px !important;
+    text-align: left !important;
+    border-right: 0 !important;
+}
+.community.notice-write .notice-write > .table-wrap > .write-form > .table > tbody > tr > td {
+    padding: 7px !important;
+    text-align: left !important;
+    border-right: 0 !important;
+}
+.community.notice-write .notice-write > .table-wrap > .write-form > .table > tbody > tr > td > .text-input {
+    width: 270px;
+    height: 35px;
+    border: 1px solid #dadada;
+}
+.community.notice-write .notice-write > .table-wrap > .write-form > .table > tbody > tr:nth-of-type(2) > td:nth-of-type(2) {
+    padding: 14px 25px !important;
+    font-weight: 400;
+    color: #333;
+    background-color: #f9f9f9;
+}
+.community.notice-write .notice-write > .table-wrap > .write-form > .table > tbody > tr:nth-of-type(2) > td:nth-of-type(3) {
+    padding-left: 20px !important;
+}
+.community.notice-write .notice-write > .table-wrap > .write-form > .table > tbody > tr:nth-of-type(2) > td:nth-of-type(3) > label:nth-of-type(1) {
+    margin-right: 34px;
+}
+.community.notice-write .notice-write > .table-wrap > .write-form > .table > tbody > tr:nth-of-type(3) > td > input {
+    width: 950px;
+    height: 35px;
+    border: 1px solid #dadada;
+}
+.community.notice-write .notice-write > .table-wrap > .write-form > .table > tbody > tr:nth-of-type(4) > td {
+    padding: 16px 0 !important;
+}
+.community.notice-write .notice-write > .table-wrap > .write-form > .table > tbody > tr > td > textarea {
+    width: 1170px;
+    height: 395px;
+    border: 1px solid #dadada;
+}
+.community.notice-write .notice-write > .table-wrap > .write-form > .btn-area {
+    margin-top: 20px;
+    overflow: hidden;
+}
+.community.notice-write .notice-write > .table-wrap > .write-form > .btn-area > p > .btn-red {
+    float: right !important;
+    width: 130px !important;
+    height: 50px !important;
+    font-size: 15px !important;
+    color: #fff !important;
+    padding: 5px 0 !important;
+    background-color: #d22d36 !important;
+}
+
+
+
+/* confirm-pw */
+.community.confirm-pw .container {
+    padding-bottom: 200px !important;
+}
+.community.confirm-pw .confirm-pw > .section-header {
+    margin-bottom: 198px;
+}
+.community.confirm-pw .confirm-pw > .section-content {
+    text-align: center;
+    background-image: url(/assets/images/community/lock_bg.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+}
+.community.confirm-pw .confirm-pw > .section-content > form {
+    overflow: hidden;
+}
+.community.confirm-pw .confirm-pw > .section-content > form > h2 {
+    font-size: 23px;
+    color: #444;
+    font-weight: 400;
+    margin: 0;
+    padding: 106px 0 10px 0;
+}
+.community.confirm-pw .confirm-pw > .section-content > form > p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+.community.confirm-pw .confirm-pw > .section-content > form > input {
+    display: inline-block;
+    width: 280px;
+    height: 35px;
+    border: 1px solid #dadada;
+    margin-right: 9px;
+}
+.community.confirm-pw .confirm-pw > .section-content > form > .btn-area {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+}
+.community.confirm-pw .confirm-pw > .section-content > form > .btn-area > p > .btn-gray {
+    width: 80px;
+    height: 35px;
+    color: #fff;
+    line-height: 35px;
+    background-color: #2e2e2e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,3 +1,30 @@
+.container input {
+    box-shadow: none;
+    padding-left: 5px;
+    border: 1px solid #dadada;
+}
+.container input:focus {
+    outline: 0;
+    border-color: #aaa;
+}
+.container textarea {
+    box-shadow: none;
+    padding: 5px;
+    border: 1px solid #dadada;
+}
+.container textarea:focus {
+    outline: 0;
+    border-color: #aaa;
+}
+.container select {
+    box-shadow: none;
+    padding-left: 5px;
+    border: 1px solid #dadada;
+}
+.container select:focus {
+    outline: 0;
+    border-color: #aaa;
+}
 /* 공통 section-header */
 .section-header hr {
 	width: 24px;
