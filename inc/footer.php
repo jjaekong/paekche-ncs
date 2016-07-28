@@ -6,9 +6,9 @@
             <li><a href="#">이메일무단수집거부</a></li>
         </ul>
         <ul class="info">
-            <li><address>565-702 전북 완주군 봉동읍 백제대학로 171</address></li>
-            <li>학과사무실 Tel. 063-260-9130</li>
-            <li>입시문의 Tel. 063-260-9001</li>
+            <li><address>55313 전북 완주군 봉동읍 백제대학로 171</address></li>
+            <li>TEL.063.260.9109</li>
+            <li>FAX.063.263.3604</li>
         </ul>
         <div class="campus-sites dropup">
             <button class="btn btn-default dropdown-toggle" type="button" id="campus-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
