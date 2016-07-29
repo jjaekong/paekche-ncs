@@ -18,8 +18,12 @@
 				<li><a href="#"><span class="glyphicon glyphicon-home"></span></a></li>
 				<li><a href="#">커뮤니티</a></li>
 				<!-- li class="active">수업자료실</li -->
-				<li class="active module">
-					<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">묻고답하기</a>
+				<li class="active dropdown">
+					<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">묻고답하기<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="/community/news.php">뉴스/보도</a></li>
+						<li><a href="/community/notice.php">묻고답하기</a></li>
+					</ul>
 				</li>
 			</ol>
 		</div>

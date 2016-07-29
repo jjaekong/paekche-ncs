@@ -19,7 +19,13 @@
 				<li><a href="#">센터소개</a></li>
 				<!-- li class="active">수업자료실</li -->
 				<li class="active dropdown">
-					<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">조직구성</a>
+					<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">조직구성<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="/center/target.php">운영목표</a></li>
+						<li><a href="/center/group.php">조직구성</a></li>
+						<li><a href="/center/business.php">주요업무</a></li>
+						<li><a href="/center/location.php">찾아오시는길</a></li>
+					</ul>
 				</li>
 			</ol>
 		</div>

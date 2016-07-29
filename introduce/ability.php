@@ -19,7 +19,14 @@
 				<li><a href="#">NCS소개</a></li>
 				<!-- li class="active">수업자료실</li -->
 				<li class="active dropdown">
-					<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">직업기초능력</a>
+					<a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">직업기초능력<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="/introduce/ncs_info.php">NCS란</a></li>
+						<li><a href="/introduce/term.php">용어설명</a></li>
+						<li><a href="/introduce/system.php">NCS분류체계</a></li>
+						<li><a href="/introduce/module.php">NCS학습모듈</a></li>
+						<li><a href="/introduce/ability.php">직업기초능력</a></li>
+					</ul>
 				</li>
 			</ol>
 		</div>
