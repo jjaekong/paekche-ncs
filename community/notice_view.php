@@ -134,7 +134,6 @@
                         </li>
                     </ul>
 				</article>
-
 			</section>
 		</div>
 	</main>
