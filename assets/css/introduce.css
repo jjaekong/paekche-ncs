@@ -162,41 +162,135 @@
 }
 .introduce.ability .ability > .section-content > .nav.nav-pills > li {
     width: 234px;
+    height: 100px;
     float: left;
     margin: 0;
     padding: 0;
     border-radius: 0;
-    border: 1px solid #dadada;
     background-color: #f9f9f9;
     margin-left: -1px;
 }
-.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(1) {
+.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(1) a {
     margin-left: 0;
+    background-image: url(/assets/images/introduce/ability_btn01_off.png);
+    background-repeat: no-repeat;
+    background-position: 50% 18px;
 }
-.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(2) {}
-.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(3) {}
-.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(4) {}
-.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(5) {}
-.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(6) {
+.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(1).active > a {
+    margin-left: 0;
+    background-image: url(/assets/images/introduce/ability_btn01_on.png);
+    background-repeat: no-repeat;
+    background-position: 50% 18px;
+}
+.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(2) a {
+    background-image: url(/assets/images/introduce/ability_btn02_off.png);
+    background-repeat: no-repeat;
+    background-position: 50% 18px;
+}
+.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(2).active > a {
+    background-image: url(/assets/images/introduce/ability_btn02_on.png);
+    background-repeat: no-repeat;
+    background-position: 50% 18px;
+}
+.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(3) a {
+    background-image: url(/assets/images/introduce/ability_btn03_off.png);
+    background-repeat: no-repeat;
+    background-position: 50% 18px;
+}
+.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(3).active > a {
+    background-image: url(/assets/images/introduce/ability_btn03_on.png);
+    background-repeat: no-repeat;
+    background-position: 50% 18px;
+}
+.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(4) a {
+    background-image: url(/assets/images/introduce/ability_btn04_off.png);
+    background-repeat: no-repeat;
+    background-position: 50% 18px;
+}
+.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(4).active > a {
+    background-image: url(/assets/images/introduce/ability_btn04_on.png);
+    background-repeat: no-repeat;
+    background-position: 50% 18px;
+}
+.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(5) a {
+    background-image: url(/assets/images/introduce/ability_btn05_off.png);
+    background-repeat: no-repeat;
+    background-position: 50% 18px;
+}
+.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(5).active > a {
+    background-image: url(/assets/images/introduce/ability_btn05_on.png);
+    background-repeat: no-repeat;
+    background-position: 50% 18px;
+}
+.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(6) a {
     margin-left: 0;
     margin-top: -1px;
+    background-image: url(/assets/images/introduce/ability_btn06_off.png);
+    background-repeat: no-repeat;
+    background-position: 50% 18px;
 }
-.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(7) {
+.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(6).active > a {
+    margin-left: 0;
     margin-top: -1px;
+    background-image: url(/assets/images/introduce/ability_btn06_on.png);
+    background-repeat: no-repeat;
+    background-position: 50% 18px;
 }
-.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(8) {
+.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(7) a {
     margin-top: -1px;
+    background-image: url(/assets/images/introduce/ability_btn07_off.png);
+    background-repeat: no-repeat;
+    background-position: 50% 18px;
 }
-.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(9) {
+.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(7).active > a {
     margin-top: -1px;
+    background-image: url(/assets/images/introduce/ability_btn07_on.png);
+    background-repeat: no-repeat;
+    background-position: 50% 18px;
 }
-.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(10) {
+.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(8) a {
     margin-top: -1px;
+    background-image: url(/assets/images/introduce/ability_btn08_off.png);
+    background-repeat: no-repeat;
+    background-position: 50% 18px;
+}
+.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(8).active > a {
+    margin-top: -1px;
+    background-image: url(/assets/images/introduce/ability_btn08_on.png);
+    background-repeat: no-repeat;
+    background-position: 50% 18px;
+}
+.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(9) a {
+    margin-top: -1px;
+    background-image: url(/assets/images/introduce/ability_btn09_off.png);
+    background-repeat: no-repeat;
+    background-position: 50% 18px;
+}
+.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(9).active > a {
+    margin-top: -1px;
+    background-image: url(/assets/images/introduce/ability_btn09_on.png);
+    background-repeat: no-repeat;
+    background-position: 50% 18px;
+}
+.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(10) a {
+    margin-top: -1px;
+    background-image: url(/assets/images/introduce/ability_btn10_off.png);
+    background-repeat: no-repeat;
+    background-position: 50% 18px;
+}
+.introduce.ability .ability > .section-content > .nav.nav-pills > li:nth-of-type(10).active > a {
+    margin-top: -1px;
+    background-image: url(/assets/images/introduce/ability_btn10_on.png);
+    background-repeat: no-repeat;
+    background-position: 50% 18px;
 }
 .introduce.ability .ability > .section-content > .nav.nav-pills > li > a {
     font-size: 16px;
-    padding: 17px 0;
+    height: 100px;
+    padding: 60px 0 0 0;
     color: #666;
+    border: 1px solid #dadada;
+    border-radius: 0;
 }
 .introduce.ability .ability > .section-content > .nav.nav-pills > .active {
     border-color: #d22d36;
@@ -204,6 +298,8 @@
 .introduce.ability .ability > .section-content > .nav.nav-pills > .active > a {
     border-radius: 0;
     background-color: #d22d36;
+    border-color: #d22d36;
+    font-weight: 400;
     color: #fff;
 }
 .introduce.ability .ability > .section-content > .tab-content > .tab-pane {
@@ -223,17 +319,20 @@
     font-size: 14px;
     color: #666;
 }
-/*
-.introduce.ability .ability > .section-content > .tab-content > .tab-pane:nth-of-type(1) > .table-wrap > .table > tbody > tr > td:nth-of-type(2) {
-    vertical-align: top;
-    text-align: left;
-}
-*/
 .introduce.ability .ability > .section-content > .tab-content > .tab-pane > .table-wrap > .table > tbody > tr > td:nth-of-type(2) {
     vertical-align: middle;
     text-align: left;
     letter-spacing: 0.5px;
     line-height: 24px;
+}
+.introduce.ability .ability > .section-content > .tab-content > .tab-pane > .table-wrap > .table > thead > tr > th {
+    font-size: 16px;
+}
+.introduce.ability .ability > .section-content > .tab-content > .tab-pane > .table-wrap > .table > tbody > tr > td {
+    font-size: 15px;
+}
+.introduce.ability .ability > .section-content > .tab-content > .tab-pane > .table-wrap > .table > tbody > tr > td > .dott-list > li {
+    font-size: 15px !important;
 }
 .introduce.ability .ability > .section-content > .tab-content > .tab-pane > .inline-dl {
     float: right;

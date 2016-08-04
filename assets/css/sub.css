@@ -373,3 +373,7 @@
     border-radius: 0;
     background-color: #555;
 }
+.text-color {
+    color: #d22d36 !important;
+    font-weight: 400;
+}

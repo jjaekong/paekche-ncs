@@ -205,7 +205,7 @@ ol {
     width: 254px;
     height: 65px;
     border: 3px solid #fff;
-    background:rgba(0,0,0,0.0);
+    background: rgba(0,0,0,0.0);
     padding: 8px 0;
 }
 .main-visual > .main > .container > .section-content > .btn-area > p > .btn:nth-of-type(1) {
@@ -218,10 +218,10 @@ ol {
 .main-visual > .index-notice > .container {
     padding: 0 15px !important;
 }
-.main-visual > .index-notice > .container > ul {
+.main-visual > .index-notice > .container {
     overflow: hidden;
 }
-.main-visual > .index-notice > .container > ul > li {
+.main-visual > .index-notice > .container > div {
     display: inline-block;
     float: left;
     border-right: 1px solid #d1ab11;
@@ -229,10 +229,10 @@ ol {
     color: #333;
     padding: 19px 45px;
 }
-.main-visual > .index-notice > .container > ul > li:last-child {
+.main-visual > .index-notice > .container > div:last-child {
     border-right: 0;
 }
-.main-visual > .index-notice > .container > ul > li > h3 {
+.main-visual > .index-notice > .container > div > h3 {
     font-size: 20px;
     color: #333;
     margin: 0 0 20px 0;
@@ -241,51 +241,52 @@ ol {
     background-repeat: no-repeat;
     background-position: 100% 0;
 }
-.main-visual > .index-notice > .container > ul > li > h3 > a {
+.main-visual > .index-notice > .container > div > h3 > a {
     color: #333;
     width: 296px;
     display: inline-block;
     text-decoration: none;
 }
-.main-visual > .index-notice > .container > ul > li:nth-of-type(2) {
+.main-visual > .index-notice > .container > .contact {
+    height: 210px;
     background-image: url(/assets/images/coll_bg.png);
     background-repeat: no-repeat;
     background-position: 272px 120px;
 }
-.main-visual > .index-notice > .container > ul > li:nth-of-type(2) > h3 {
+.main-visual > .index-notice > .container > .contact > h3 {
     background: none;
     margin-bottom: 10px;
 }
-.main-visual > .index-notice > .container > ul > li:nth-of-type(2) > p {
+.main-visual > .index-notice > .container > .contact > p {
     font-size: 14px;
     color: #333;
     margin-bottom: 60px;
 }
-.main-visual > .index-notice > .container > ul > li:nth-of-type(2) > .inline-dl {
+.main-visual > .index-notice > .container > .contact > .inline-dl {
     overflow: hidden;
     margin-bottom: 10px;
 }
-.main-visual > .index-notice > .container > ul > li:nth-of-type(2) > .inline-dl > dt {
+.main-visual > .index-notice > .container > .contact > .inline-dl > dt {
     float: left;
     clear: both;
     font-size: 22px;
     color: #333;
     font-weight: 400;
 }
-.main-visual > .index-notice > .container > ul > li:nth-of-type(2) > .inline-dl > dt:after {
+.main-visual > .index-notice > .container > .contact > .inline-dl > dt:after {
     content: ".";
     padding: 0 5px 0 0;
 }
-.main-visual > .index-notice > .container > ul > li:nth-of-type(2) > .inline-dl > dd {
+.main-visual > .index-notice > .container > .contact > .inline-dl > dd {
     float: left;
     font-size: 22px;
     color: #333;
     font-weight: 400;
 }
-.main-visual > .index-notice > .container > ul > li > ul {
+.main-visual > .index-notice > .container > div > ul {
     vertical-align: top;
 }
-.main-visual > .index-notice > .container > ul > li > ul > li {
+.main-visual > .index-notice > .container > div > ul > li {
     position: relative;
     padding-left: 10px;
     line-height: 28px;
@@ -294,11 +295,11 @@ ol {
     white-space: nowrap;
     text-overflow: ellipsis;
 }
-.main-visual > .index-notice > .container > ul > li > ul > li > a {
+.main-visual > .index-notice > .container > div > ul > li > a {
     font-size: 14px;
     color: #444;
 }
-.main-visual > .index-notice > .container > ul > li > ul > li:before {
+.main-visual > .index-notice > .container > div > ul > li:before {
     position: absolute;
     top: 0;
     left: 0;
